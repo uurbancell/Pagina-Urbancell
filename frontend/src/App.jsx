@@ -30,8 +30,7 @@ const ESTRELLA_KEY = 'urbancell_producto_estrella_id';
 const ESTRELLA_OCULTA_KEY = 'urbancell_producto_estrella_oculto';
 const CATEGORIAS_VALIDAS = ['audio', 'carga', 'fundas'];
 
-// Cambia esto por tu número real en formato internacional sin '+' ni espacios (ej: 59899123456)
-const NUMERO_WHATSAPP = '59890000000';
+const NUMERO_WHATSAPP = '097305438';
 
 const TASAS_A_UYU = {
   UYU: 1,
