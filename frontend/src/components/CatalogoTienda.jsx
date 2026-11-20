@@ -23,7 +23,7 @@ export default function CatalogoTienda({ productos = [], busqueda = '', moneda }
           <div className="catalog-filters">
             <button className={`filter-tab ${filtroCategoria === 'all' ? 'active' : ''}`} onClick={() => setFiltroCategoria('all')}>Todos</button>
             <button className={`filter-tab ${filtroCategoria === 'audio' ? 'active' : ''}`} onClick={() => setFiltroCategoria('audio')}>Audio</button>
-            <button className={`filter-tab ${filtroCategoria === 'carga' ? 'active' : ''}`} onClick={() => setFiltroCategoria('carga')}>Cargadores & Cables</button>
+            <button className={`filter-tab ${filtroCategoria === 'carga' ? 'active' : ''}`} onClick={() => setFiltroCategoria('carga')}>Cargadores</button>
             <button className={`filter-tab ${filtroCategoria === 'fundas' ? 'active' : ''}`} onClick={() => setFiltroCategoria('fundas')}>Fundas & Protección</button>
           </div>
         </div>
