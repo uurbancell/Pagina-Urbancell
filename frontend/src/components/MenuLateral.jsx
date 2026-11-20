@@ -41,7 +41,7 @@ export default function MenuLateral({ isOpen, onClose, esAdmin, onToggleAdmin })
 
         <div className="drawer-content">
           <div className="drawer-header">
-            <span style={{ color: '#000000ff' }}>URBAN</span>
+            <span style={{ color: '#000000ff' }}>Urban</span>
             <span style={{ color: '#814fffff' }}>CELL</span>®
             {esAdmin && <span className="drawer-admin-badge">ADMIN</span>}
           </div>
