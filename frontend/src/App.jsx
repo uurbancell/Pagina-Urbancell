@@ -34,9 +34,9 @@ const NUMERO_WHATSAPP = '097305438';
 
 const TASAS_A_UYU = {
   UYU: 1,
-  USD: 42,
-  BRL: 7.5,
-  ARS: 0.042,
+  USD: 41,
+  BRL: 7.4,
+  ARS: 0.043,
 };
 
 const normalizarCategoria = (cat) => {
