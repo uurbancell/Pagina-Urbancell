@@ -18,7 +18,7 @@ export default function CatalogoTienda({ productos = [], busqueda = '', moneda }
       <section id="catalogo" className="catalog-section">
         <div className="catalog-header">
           <h2 className="section-title">Catálogo <span>Urban Cell</span></h2>
-          <p className="section-subtitle">Accesorios seleccionados con garantía y entrega directa en </p>
+          <p className="section-subtitle">Accesorios seleccionados con garantía y entrega directa en Paysandú</p>
           
           <div className="catalog-filters">
             <button className={`filter-tab ${filtroCategoria === 'all' ? 'active' : ''}`} onClick={() => setFiltroCategoria('all')}>Todos</button>
