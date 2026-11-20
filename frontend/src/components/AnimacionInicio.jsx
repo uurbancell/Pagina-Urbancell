@@ -43,7 +43,7 @@ export default function AnimacionInicio() {
               </span>
             ))}
           </div>
-          <div className="intro-subtitle">PAYSANDÚ</div>
+          <div className="intro-subtitle">Paysandú</div>
         </div>
       </div>
     </div>
