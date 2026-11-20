@@ -7,7 +7,7 @@ export default function AsistenteUrbancell({ productos = [], apiUrl = "" }) {
   const [mensajes, setMensajes] = useState([
     {
       rol: "ia",
-      texto: "¡Hola! Soy el recomendador de URBAN CELL®. Dime qué accesorio buscas o qué presupuesto tienes y te sugiero opciones del catálogo."
+      texto: "¡Hola! Soy el asistente de URBAN CELL®. Dime qué accesorio buscas o qué presupuesto tienes y te sugiero opciones del catálogo."
     }
   ]);
 
