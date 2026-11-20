@@ -24,7 +24,7 @@ export default function CatalogoTienda({ productos = [], busqueda = '', moneda }
             <button className={`filter-tab ${filtroCategoria === 'all' ? 'active' : ''}`} onClick={() => setFiltroCategoria('all')}>Todos</button>
             <button className={`filter-tab ${filtroCategoria === 'audio' ? 'active' : ''}`} onClick={() => setFiltroCategoria('audio')}>Audio</button>
             <button className={`filter-tab ${filtroCategoria === 'carga' ? 'active' : ''}`} onClick={() => setFiltroCategoria('carga')}>Cargadores & Cables</button>
-            <button className={`filter-tab ${filtroCategoria === 'fundas' ? 'active' : ''}`} onClick={() => setFiltroCategoria('fundas')}>Fundas & Protección</button>
+            <button className={`filter-tab ${filtroCategoria === 'fundas' ? 'active' : ''}`} onClick={() => setFiltroCategoria('fundas')}>Fundas </button>
           </div>
         </div>
 
